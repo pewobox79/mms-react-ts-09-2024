@@ -1,0 +1,10 @@
+.navWrapper{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.navItem {
+    margin-left: 10px
+}
