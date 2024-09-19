@@ -24,4 +24,9 @@ export const navData = [
         href: "/login",
         id: "23424-52990890425"
     },
+    {
+        title: "Users",
+        href: "/users",
+        id: "23424-0890425"
+    },
 ]

@@ -1,8 +1,7 @@
 
-
 function ErrorPage() {
   return (
-    <div>404 - page not available</div>
+    <h2>error page</h2>
   )
 }
 

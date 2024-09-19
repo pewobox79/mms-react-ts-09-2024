@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"
 import PostItem from "./PostItem"
 function BlogOverview() {
 
+  
     const [posts, setPosts] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState({state: false, msg: ""})
@@ -30,7 +31,6 @@ function BlogOverview() {
         fetchData()
 
     }, [])
-
 
     const PostList = posts.map((post: { title: string, id: number }) => {
         return <PostItem key={post.id} title={post.title} id={post.id} />
